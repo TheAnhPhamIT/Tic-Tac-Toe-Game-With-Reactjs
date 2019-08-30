@@ -1,0 +1,8 @@
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+    margin: 0 30%
+  }
+

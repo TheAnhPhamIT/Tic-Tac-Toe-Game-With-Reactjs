@@ -1,0 +1,85 @@
+.game {
+  margin: 100px auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 35% 18% 20% 27%;
+}
+
+button.setMode {
+  color: white;
+  border: 5px solid seagreen;
+  font-size: 30px;
+  margin: 20px 100px;
+}
+
+button.setPlayer {
+  color: white;
+  margin: 20px 80px;
+  border: 2px solid seagreen;
+  padding: 10px 25px;
+  background-color: coral;
+  font-size: 60px;
+}
+body {
+  background-color: brown;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  color: white;
+  font-family: "Bungee Inline", cursive;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 60px;
+  color: white;
+}
+
+.status {
+  font-family: "Bungee Inline", cursive;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+.game-btn {
+  float: right;
+}
+
+.game-info {
+  float: left;
+}
+.game-board {
+  clear: both;
+}
+
+.game-btn button {
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px;
+  background: #1abc9c;
+  border: 3px solid white;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+ul li button {
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 8px 8px;
+  margin: 10px;
+  background: #9b59b6;
+  border: 2px solid white;
+}
